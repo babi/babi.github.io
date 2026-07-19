@@ -1,3 +1,12 @@
+---
+layout: post
+title: Beaytiful Jekyll模板项目各个文件的解释
+subtitle: 由于对Ruby和Jekyll不熟悉, 让Claude解释每个文件的作用
+date: 2026-07-19
+tags: [github-pages, jekyll, ruby]
+author: babi
+---
+
 # 项目文件说明
 
 本项目是一个基于 **Beautiful Jekyll** 主题的个人网站/博客，使用 [Jekyll](https://jekyllrb.com/) 静态站点生成器构建，可部署在 GitHub Pages 上。
