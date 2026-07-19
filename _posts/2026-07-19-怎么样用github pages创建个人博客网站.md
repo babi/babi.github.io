@@ -64,14 +64,16 @@ author: babi
 
 ---
 
-## 第二步：通过模板创建仓库
+## 第二步：Fork 模板仓库
 
-最简单的做法是直接用模板生成仓库：
+推荐的做法是直接 Fork（复制）模板仓库到你的 GitHub 账号：
 
 1. 打开 [Beautiful Jekyll 的 GitHub 仓库](https://github.com/daattali/beautiful-jekyll)
-2. 点击绿色的 **"Use this template"** → **"Create a new repository"**
-3. 仓库名填 **`你的用户名.github.io`**（例如我的就是 `babi.github.io`）
-4. 选择 Public，然后点击 **Create repository from template**
+2. 点击右上角的 **Fork** 按钮
+3. 在 **Repository name** 处填 **`你的用户名.github.io`**（例如我的就是 `babi.github.io`）
+4. 点击 **Create fork**
+
+> ⚠️ 仓库名必须是 `你的用户名.github.io`，GitHub Pages 才会把这个仓库当作个人站点。如果想用自定义域名可以取其他名字，参考 [FAQ](https://beautifuljekyll.com/faq/#custom-domain)。
 
 > ⚠️ 仓库名必须是 `你的用户名.github.io`，GitHub Pages 才会把这个仓库当作个人站点。
 
@@ -109,14 +111,6 @@ rss-description: 我的个人博客
 
 每个配置项都有注释说明，按需修改即可。
 
-本地预览（需要 Ruby 环境）：
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-访问 `http://localhost:4000` 预览效果。
 
 ## 第五步：写你的第一篇文章
 
@@ -204,7 +198,7 @@ git push
 从零到上线只需要：
 
 1. **选模板** — [jekyllthemes.io](https://jekyllthemes.io/) 挑选喜欢的
-2. **创建仓库** — 用模板生成 `你的用户名.github.io`
+2. **创建仓库** — Fork 模板仓库到你的账号并重命名为 `你的用户名.github.io`
 3. **启用 Pages** — 在仓库 Settings → Pages 选择分支
 4. **写文章** — `_posts/` 下加 Markdown 文件，推送即发布
 
