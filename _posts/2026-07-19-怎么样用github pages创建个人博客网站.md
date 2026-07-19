@@ -51,8 +51,6 @@ author: babi
 
 我们使用 [Beautiful Jekyll](https://jekyllthemes.io/theme/beautiful-jekyll) 作为示例——它也是这个博客正在使用的主题。
 
-![](https://beautifuljekyll.com/assets/img/beautiful-jekyll-theme.png)
-
 它的特点：
 
 - **颜值高**——开箱即用就很好看，首页大图、响应式设计
@@ -74,8 +72,6 @@ author: babi
 4. 点击 **Create fork**
 
 > ⚠️ 仓库名必须是 `你的用户名.github.io`，GitHub Pages 才会把这个仓库当作个人站点。如果想用自定义域名可以取其他名字，参考 [FAQ](https://beautifuljekyll.com/faq/#custom-domain)。
-
-> ⚠️ 仓库名必须是 `你的用户名.github.io`，GitHub Pages 才会把这个仓库当作个人站点。
 
 ## 第三步：启用 GitHub Pages
 
