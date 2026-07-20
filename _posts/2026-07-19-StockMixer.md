@@ -35,7 +35,7 @@ StockMixer 的输入是一个三维张量：**(股票 × 时间步 × 技术指�
 输入 → Indicator Mixing → Time Mixing → Stock Mixing → 预测输出
 ```
 
-![StockMixer 架构图](https://raw.githubusercontent.com/SJTU-DMTai/StockMixer/main/fig/overview.png)
+![StockMixer 架构图](https://github.com/SJTU-DMTai/StockMixer/raw/master/framework.png)
 
 ### 1. Indicator Mixing（指标混合）
 
